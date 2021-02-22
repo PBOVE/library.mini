@@ -7,4 +7,16 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
+
+.flex-middle{
+  display: flex;
+}
+
+.ml-1{
+  margin-left: 4px;
+}
+
+.ml-2{
+  margin-left: 8px;
+}

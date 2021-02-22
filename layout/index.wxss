@@ -1,0 +1,21 @@
+
+.layout-wrap{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.layout-header{
+  display: flex;
+  align-items: center;
+  height: 44px;
+}
+.layout-main{
+  flex: 1;
+}
+
+.layout-footer{
+  display: flex;
+  align-items: center;
+  height: 48px;
+}

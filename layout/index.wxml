@@ -1,0 +1,11 @@
+<view class="layout-wrap">
+  <view class="layout-header" style="padding-top:{{statusBarHeight}}px;">
+    <slot name="header" />
+  </view>
+  <view class="layout-main">
+    <slot name="main" />
+  </view>
+  <view class="layout-footer">
+    <slot name="footer" />
+  </view>
+</view>

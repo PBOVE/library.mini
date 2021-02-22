@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "tab-bar": "/components/tabBar/index",
+    "layout-view": "/layout/index",
+    "header-search": "/components/search/index",
+    "i-icon":"/dist/icon/index"
+  }
 }
