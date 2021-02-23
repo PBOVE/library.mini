@@ -1,7 +1,14 @@
 <!--pages/search/index.wxml-->
 <layout-view>
-  <view slot="header" class="header" >
-    <i-icon type="return" bindtap="handleClickTitle" />
+  <view slot="header" class="header">
+    <view class="header-content flex-middle">
+      <van-icon name="arrow-left" class="header-content-icon" bindtap="onBack" />
+      <view class="header-content-divider" />
+      <van-icon name="wap-home" class="header-content-icon" bindtap="onHome" />
+    </view>
     <view class="header-tltle">{{ configs.title }}</view>
+  </view>
+  <view slot="main">
+    <input class="main-search" type="text" placeholder="请输入搜索的内容..." />
   </view>
 </layout-view>

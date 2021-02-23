@@ -16,5 +16,7 @@
     "url": "https://github.com/PBOVE/library-mini/issues"
   },
   "homepage": "https://github.com/PBOVE/library-mini#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@vant/weapp": "^1.5.3"
+  }
 }

@@ -1,6 +1,8 @@
 // pages/search/index.js
 import configs from '../../configs/index'
 
+import pageEnum from '../../enum/pageEnum'
+
 
 Page({
   data: {
@@ -21,7 +23,14 @@ Page({
   onUnload: function () {
     console.log("页面销毁时执行")
   },
-  handleClickTitle: function () {
-    wx.navigateBack ()
-  }
+
+  // 返回上一页
+  onBack: () => wx.navigateBack(),
+
+  // 返回主页
+  onHome: () => wx.switchTab({
+    url: '/pages/index/index',
+  })
+
+
 })

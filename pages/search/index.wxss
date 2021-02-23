@@ -1,9 +1,43 @@
 /* pages/search/index.wxss */
-.header{
+.header {
   display: flex;
   align-items: center;
-  padding: 0 0 0  20rpx;
+  width: calc(100% - 100px);
+  padding: 0 0 0 20rpx;
 }
-.header-tltle{
-  margin: 16rpx;
+
+.header-content {
+  border: 1px solid #eee;
+  height: 60rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+
+.header-content-icon {
+  padding: 0 25rpx;
+  height: 60rpx;
+  font-size: 32rpx;
+}
+
+.header-content-icon:active {
+  background: #eee;
+}
+
+.header-content-divider {
+  width: 1px;
+  height: 60%;
+  background: #eee;
+}
+
+.header-tltle {
+  flex: 1;
+  text-align: center;
+}
+
+.main-search {
+  height: 60rpx;
+  margin: 20rpx 40rpx;
+  padding: 0 30rpx;
+  border-radius: 40rpx;
+  background: #f2f2f2;
 }
