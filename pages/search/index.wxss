@@ -1,0 +1,9 @@
+/* pages/search/index.wxss */
+.header{
+  display: flex;
+  align-items: center;
+  padding: 0 0 0  20rpx;
+}
+.header-tltle{
+  margin: 16rpx;
+}

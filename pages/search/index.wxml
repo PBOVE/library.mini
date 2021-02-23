@@ -1,0 +1,7 @@
+<!--pages/search/index.wxml-->
+<layout-view>
+  <view slot="header" class="header" >
+    <i-icon type="return" bindtap="handleClickTitle" />
+    <view class="header-tltle">{{ configs.title }}</view>
+  </view>
+</layout-view>

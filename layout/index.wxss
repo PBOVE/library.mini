@@ -8,7 +8,7 @@
 .layout-header{
   display: flex;
   align-items: center;
-  height: 44px;
+  height: 88rpx;
 }
 .layout-main{
   flex: 1;
@@ -17,5 +17,5 @@
 .layout-footer{
   display: flex;
   align-items: center;
-  height: 48px;
+  height: 96rpx;
 }

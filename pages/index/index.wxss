@@ -1,10 +1,10 @@
 .header-content {
   width: calc(100% - 160px);
-  height: 30px;
-  margin: 0 0 0 10px;
+  height: 60rpx;
+  margin: 0 0 0 20rpx;
   padding: 0 20px;
-  font-size: 12px;
-  line-height: 30px;
-  border-radius: 30px;
+  font-size: 24rpx;
+  line-height: 60rpx;
+  border-radius: 60rpx;
   background: #f2f2f2;
 }

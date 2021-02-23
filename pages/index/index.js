@@ -1,9 +1,5 @@
-
-
-
 Page({
-  data: {
-  },
+  data: {},
   onLoad: function () {
     console.log("页面创建时执行")
   },
@@ -18,5 +14,11 @@ Page({
   },
   onUnload: function () {
     console.log("页面销毁时执行")
+  },
+  // 处理页面点击搜索
+  handleClickSearch() {
+    wx.navigateTo({
+      url: '/pages/search/index',
+    })
   }
 })
