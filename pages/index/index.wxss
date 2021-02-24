@@ -4,6 +4,7 @@
   margin: 0 0 0 20rpx;
   padding: 0 20px;
   font-size: 24rpx;
+  text-align: center;
   line-height: 60rpx;
   border-radius: 60rpx;
   background: #f2f2f2;

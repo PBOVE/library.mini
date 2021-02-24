@@ -9,6 +9,9 @@
     <view class="header-tltle">{{ configs.title }}</view>
   </view>
   <view slot="main">
-    <input class="main-search" type="text" placeholder="请输入搜索的内容..." />
+    <view class="main-header flex-middle">
+      <van-icon name="search" />
+      <input class="main-search" type="text" placeholder="{{configs.searchTip}}" />
+    </view>
   </view>
 </layout-view>

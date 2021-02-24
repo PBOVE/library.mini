@@ -35,9 +35,15 @@
 }
 
 .main-search {
-  height: 60rpx;
+  flex: 1;
+  margin: 0 0 0 10rpx;
+}
+
+.main-header {
+  height: 70rpx;
   margin: 20rpx 40rpx;
-  padding: 0 30rpx;
+  padding: 0 30rpx 0 20rpx;
+  font-size: 24rpx;
   border-radius: 40rpx;
   background: #f2f2f2;
 }

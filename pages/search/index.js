@@ -29,7 +29,7 @@ Page({
 
   // 返回主页
   onHome: () => wx.switchTab({
-    url: '/pages/index/index',
+    url: pageEnum.INDEX_HOME,
   })
 
 

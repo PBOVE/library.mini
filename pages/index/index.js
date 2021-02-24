@@ -1,3 +1,6 @@
+import pageEnum from '../../enum/pageEnum'
+
+
 Page({
   data: {},
   onLoad: function () {
@@ -18,7 +21,7 @@ Page({
   // 处理页面点击搜索
   handleClickSearch() {
     wx.navigateTo({
-      url: '/pages/search/index',
+      url: pageEnum.INDEX_SEARCH,
     })
   }
 })
