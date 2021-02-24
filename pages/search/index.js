@@ -4,12 +4,19 @@ import configs from '../../configs/index'
 import pageEnum from '../../enum/pageEnum'
 
 
+import Service from '../../api/search'
+
+
 Page({
   data: {
     configs,
+    hotList: []
   },
-  onLoad: function () {
-    console.log("页面创建时执行")
+  onLoad: async function () {
+    const { data } = await Service.fecthHotList()
+    this.setData({
+      hotList: data.slice(0, 8)
+    })
   },
   onShow: function () {
     console.log("页面出现在前台时执行")

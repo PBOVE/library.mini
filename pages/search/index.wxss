@@ -47,3 +47,34 @@
   border-radius: 40rpx;
   background: #f2f2f2;
 }
+
+.main-title {
+  padding: 0 40rpx;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx 40rpx;
+}
+
+.main-content-box {
+  width: 50%;
+  padding: 20rpx 0 0 0;
+}
+
+.main-content-box-title {
+  display: inline-block;
+  width: 40rpx;
+  color: #a3d2ca;
+}
+
+.main-content-box-title.hot-1 {
+  color: #fe2d46;
+}
+.main-content-box-title.hot-2 {
+  color: #f60;
+}
+.main-content-box-title.hot-3 {
+  color: #faa90e;
+}

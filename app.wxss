@@ -1,17 +1,24 @@
 /**app.wxss**/
 
-.flex-middle{
+.flex-middle {
   display: flex;
   align-items: center;
 }
-.cbbb{
+
+.cbbb {
   color: #bbb;
 }
 
-.ml-1{
+.ml-1 {
   margin-left: 8rpx;
 }
 
-.ml-2{
+.ml-2 {
   margin-left: 16rpx;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

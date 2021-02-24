@@ -13,5 +13,12 @@
       <van-icon name="search" />
       <input class="main-search" type="text" placeholder="{{configs.searchTip}}" />
     </view>
+    <view class="main-title">图书热搜</view>
+    <view class="main-content">
+      <view wx:for="{{ hotList }}" wx:key="index" class="main-content-box ellipsis">
+        <text class="main-content-box-title hot-{{index + 1}}">{{ index + 1 }}</text>
+        <text class="main-content-box-content">{{ item.name }}</text>
+      </view>
+    </view>
   </view>
 </layout-view>
