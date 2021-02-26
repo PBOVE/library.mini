@@ -2,6 +2,7 @@
   "usingComponents": {
     "tab-bar": "/components/tabBar/index",
     "layout-view": "/layout/index",
-    "header-search": "/components/search/index"
+    "header-search": "/components/search/index",
+    "tabBar": "/components/tabBar/index"
   }
 }

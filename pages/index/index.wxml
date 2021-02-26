@@ -6,4 +6,7 @@
   <view slot="main">
    
   </view>
+  <view slot="footer">
+    <tab-bar />
+  </view>
 </layout-view>
