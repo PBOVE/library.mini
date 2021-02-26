@@ -2,8 +2,8 @@
 .header {
   display: flex;
   align-items: center;
-  width: calc(100% - 100px);
-  padding: 0 0 0 20rpx;
+  width: 100%;
+  padding: 0 0 0 25rpx;
 }
 
 .header-content {
@@ -13,6 +13,8 @@
   overflow: hidden;
 }
 
+
+
 .header-content-icon {
   padding: 0 25rpx;
   height: 60rpx;
@@ -21,6 +23,10 @@
 
 .header-content-icon:active {
   background: #eee;
+}
+
+.header-conten:active .header-content-divider {
+  height: 100%;
 }
 
 .header-content-divider {
@@ -41,9 +47,9 @@
 
 .main-header {
   height: 70rpx;
-  margin: 20rpx 40rpx;
+  margin: 40rpx 40rpx 20rpx;
   padding: 0 30rpx 0 20rpx;
-  font-size: 24rpx;
+  font-size: 28rpx;
   border-radius: 40rpx;
   background: #f2f2f2;
 }

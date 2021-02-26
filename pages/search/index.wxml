@@ -11,7 +11,7 @@
   <view slot="main">
     <view class="main-header flex-middle">
       <van-icon name="search" />
-      <input class="main-search" type="text" placeholder="{{configs.searchTip}}" />
+      <input class="main-search" type="text" placeholder="{{configs.searchTip}}" focus="{{true}}" />
     </view>
     <view class="main-title">图书热搜</view>
     <view class="main-content">

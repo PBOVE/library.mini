@@ -1,20 +1,22 @@
-
-.layout-wrap{
+.layout-wrap {
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100vw;
 }
-.layout-header{
+
+.layout-header {
   display: flex;
   align-items: center;
+  width: calc(100% - 190rpx);
   height: 88rpx;
 }
-.layout-main{
+
+.layout-main {
   flex: 1;
 }
 
-.layout-footer{
+.layout-footer {
   display: flex;
   align-items: center;
   height: 96rpx;

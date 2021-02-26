@@ -5,6 +5,12 @@
   align-items: center;
 }
 
+.flex-center-middle {
+  display: flex;
+  align-items: center;
+}
+
+
 .cbbb {
   color: #bbb;
 }

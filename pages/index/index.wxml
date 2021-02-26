@@ -1,12 +1,15 @@
 <layout-view>
-  <view slot="header" class="header-content" bindtap="handleClickSearch"> 
+  <view slot="header" class="header-content" bindtap="handleClickSearch">
     <icon type="search" size="10px" />
     <text class="ml-1 cbbb">请输入搜索的内容...</text>
   </view>
-  <view slot="main">
-   
+  <view slot="main" class="main-content">
+    <view class="main-content-header">
+      <text class="item">推荐</text>
+      <text class="item">图书</text>
+    </view>
   </view>
-  <view slot="footer">
+  <view slot="footer" class="footer-content">
     <tab-bar />
   </view>
 </layout-view>

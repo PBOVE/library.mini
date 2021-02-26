@@ -1,1 +1,25 @@
 /* components/tabBar/index.wxss */
+
+.tab-bar-wrap {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.flex-item {
+  flex: 1;
+  text-align: center;
+}
+
+.flex-item-icon {
+  font-size: 40rpx;
+}
+
+.flex-item-text {
+  font-size: 20rpx;
+}
+
+.use-select {
+  color: #40a9ff;
+}

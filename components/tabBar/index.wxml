@@ -1,2 +1,15 @@
 <!--components/tabBar/index.wxml-->
-<text>components/tabBar/index.wxml</text>
+<view class="tab-bar-wrap">
+  <view class="flex-item use-select">
+    <van-icon name="home-o" class="flex-item-icon" />
+    <view class="flex-item-text" >首页</view>
+  </view>
+  <view class="flex-item ">
+    <van-icon name="chat-o" class="flex-item-icon" />
+    <view class="flex-item-text" >消息</view>
+  </view>
+  <view class="flex-item ">
+    <van-icon name="contact" class="flex-item-icon" />
+    <view class="flex-item-text" >我的</view>
+  </view>
+</view>
