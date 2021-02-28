@@ -1,5 +1,5 @@
 <view class="layout-wrap">
-  <view class="layout-header" style="padding-top:{{statusBarHeight}}px;">
+  <view class="layout-header {{headerClass}}" style="padding-top:{{statusBarHeight}}px;">
     <slot name="header" />
   </view>
   <view class="layout-main">

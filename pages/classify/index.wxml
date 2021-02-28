@@ -1,0 +1,10 @@
+<layout-view>
+  <view slot="header" class="header-content">
+    分类
+  </view>
+  <view slot="main" class="main-content">
+  </view>
+  <view slot="footer" class="footer-content">
+    <tab-bar active="{{1}}" />
+  </view>
+</layout-view>

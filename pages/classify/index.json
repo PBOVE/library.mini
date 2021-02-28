@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "layout-view": "/layout/index",
+    "tab-bar": "/components/tabBar/index"
+  }
+}

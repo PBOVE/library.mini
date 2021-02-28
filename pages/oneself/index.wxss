@@ -1,0 +1,13 @@
+.header-wrap{
+  background-color: #096dd9;
+  color: #ffffff;
+}
+
+.header-content{
+  margin: 0 40rpx 0;
+}
+
+
+.footer-content {
+  width: 100%;
+}

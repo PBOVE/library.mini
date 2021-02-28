@@ -2,7 +2,10 @@ import pageEnum from '../../enum/pageEnum'
 
 
 Page({
-  data: {},
+  data: {
+    // 视图
+    viewCurrent: 0
+  },
   onLoad: function () {
     console.log("页面创建时执行")
   },
@@ -22,6 +25,13 @@ Page({
   handleClickSearch() {
     wx.navigateTo({
       url: pageEnum.INDEX_SEARCH,
+    })
+  },
+  // 处理 标签 发P生变化
+  handleTabsSearch(event) {
+    const name = event.detail.name
+    this.setData({
+      viewCurrent: name
     })
   }
 })

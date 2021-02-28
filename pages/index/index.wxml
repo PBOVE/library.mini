@@ -3,13 +3,17 @@
     <icon type="search" size="10px" />
     <text class="ml-1 cbbb">请输入搜索的内容...</text>
   </view>
-  <view slot="main" class="main-content">
-    <view class="main-content-header">
-      <text class="item">推荐</text>
-      <text class="item">图书</text>
-    </view>
+  <view slot="main" class="main-content ">
+    <van-tabs active="{{ viewCurrent }}" animated swipeable class="content" custom-class="content">
+      <van-tab title="推荐" class="item">
+        <recommend />
+      </van-tab>
+      <van-tab title="图书" class="item">
+        <library />
+      </van-tab>
+    </van-tabs>
   </view>
   <view slot="footer" class="footer-content">
-    <tab-bar />
+    <tab-bar active="{{0}}" />
   </view>
 </layout-view>

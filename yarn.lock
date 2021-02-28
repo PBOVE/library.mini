@@ -8,8 +8,25 @@
   integrity sha1-a0A0FVhW0xzZ80Lv0hfbwn6oD7k=
 
 "@vant/weapp@^1.5.3":
-  version "1.5.3"
-  resolved "https://registry.npm.taobao.org/@vant/weapp/download/@vant/weapp-1.5.3.tgz#5fa3c23732ffdeb85c939b4f45cfc58b2eb805f4"
-  integrity sha1-X6PCNzL/3rhck5tPRc/Fiy64BfQ=
+  version "1.6.8"
+  resolved "https://registry.npm.taobao.org/@vant/weapp/download/@vant/weapp-1.6.8.tgz#948ae16fba07c5a2054c52783f22aaf6a04453e1"
+  integrity sha1-lIrhb7oHxaIFTFJ4PyKq9qBEU+E=
+
+fast-deep-equal@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npm.taobao.org/fast-deep-equal/download/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+  integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+
+miniprogram-computed@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npm.taobao.org/miniprogram-computed/download/miniprogram-computed-4.0.1.tgz#ddb6f197afc6820b9127e81f6388e141fb24bb2f"
+  integrity sha1-3bbxl6/GgguRJ+gfY4jhQfskuy8=
   dependencies:
     "@types/wechat-miniprogram" "^3.0.0"
+    fast-deep-equal "^2.0.1"
+    rfdc "^1.1.4"
+
+rfdc@^1.1.4:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/rfdc/download/rfdc-1.2.0.tgz?cache=0&sync_timestamp=1610744108114&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frfdc%2Fdownload%2Frfdc-1.2.0.tgz#9e9894258f48f284b43c3143c68070a4f373b949"
+  integrity sha1-npiUJY9I8oS0PDFDxoBwpPNzuUk=

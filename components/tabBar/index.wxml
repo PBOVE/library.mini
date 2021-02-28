@@ -1,15 +1,8 @@
 <!--components/tabBar/index.wxml-->
 <view class="tab-bar-wrap">
-  <view class="flex-item use-select">
-    <van-icon name="home-o" class="flex-item-icon" />
-    <view class="flex-item-text" >首页</view>
-  </view>
-  <view class="flex-item ">
-    <van-icon name="chat-o" class="flex-item-icon" />
-    <view class="flex-item-text" >消息</view>
-  </view>
-  <view class="flex-item ">
-    <van-icon name="contact" class="flex-item-icon" />
-    <view class="flex-item-text" >我的</view>
+  <view wx:for="{{tabList}}" wx:key="index" class="flex-item {{active === index && 'use-select'}}"
+    data-index="{{index}}" bindtap="handleClick">
+    <van-icon name="{{item.icon}}" class="flex-item-icon" />
+    <view class="flex-item-text">{{item.title}}</view>
   </view>
 </view>

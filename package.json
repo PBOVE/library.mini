@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/PBOVE/library-mini#readme",
   "dependencies": {
-    "@vant/weapp": "^1.5.3"
+    "@vant/weapp": "^1.5.3",
+    "miniprogram-computed": "^4.0.1"
   }
 }

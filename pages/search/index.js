@@ -3,7 +3,6 @@ import configs from '../../configs/index'
 
 import pageEnum from '../../enum/pageEnum'
 
-
 import Service from '../../api/search'
 
 

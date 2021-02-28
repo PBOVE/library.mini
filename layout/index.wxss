@@ -8,8 +8,8 @@
 .layout-header {
   display: flex;
   align-items: center;
-  width: calc(100% - 190rpx);
   height: 88rpx;
+  padding: 0 190rpx 0 0;
 }
 
 .layout-main {

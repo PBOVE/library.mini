@@ -1,0 +1,11 @@
+<layout-view headerClass="header-wrap">
+  <view slot="header" class="header-content" >
+    {{configs.title}}
+  </view>
+  <view slot="main" class="main-content">
+    
+  </view>
+  <view slot="footer" class="footer-content">
+    <tab-bar active="{{3}}" />
+  </view>
+</layout-view>

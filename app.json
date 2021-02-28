@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/search/index",
-    "pages/logs/logs"
+    "pages/classify/index",
+    "pages/message/index",
+    "pages/oneself/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,14 +14,21 @@
   },
   "tabBar": {
     "custom": true,
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/index/index",
         "text": "主页"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "主页"
+        "pagePath": "pages/classify/index",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/oneself/index",
+        "text": "我的"
       }
     ]
   },

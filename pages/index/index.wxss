@@ -11,6 +11,8 @@
 }
 
 .main-content {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   background: #f5f5f5;
 }
@@ -21,12 +23,11 @@
   background: #fff;
 }
 
-.main-content-header {
-  width: 100%;
-  padding: 15rpx 30rpx;
-  background-color: #fff;
+.main-content .content {
+  height: 100%;
+  --tabs-bottom-bar-color: #1890ff;
 }
 
-.main-content-header .item {
-  margin: 0 0 0 20rpx;
+.main-content .content .van-tabs__content{
+  height: calc(100% - 44px);
 }

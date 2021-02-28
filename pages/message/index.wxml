@@ -1,0 +1,10 @@
+<layout-view>
+  <view slot="header" class="header-content">
+    消息
+  </view>
+  <view slot="main" class="main-content">
+  </view>
+  <view slot="footer" class="footer-content">
+    <tab-bar active="{{2}}" />
+  </view>
+</layout-view>

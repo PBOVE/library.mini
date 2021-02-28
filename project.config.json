@@ -83,6 +83,13 @@
           "pathName": "pages/search/index",
           "query": "",
           "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/oneself/index",
+          "pathName": "pages/oneself/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

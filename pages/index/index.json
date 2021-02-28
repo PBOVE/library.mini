@@ -3,6 +3,9 @@
     "tab-bar": "/components/tabBar/index",
     "layout-view": "/layout/index",
     "header-search": "/components/search/index",
-    "tabBar": "/components/tabBar/index"
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "recommend": "./components/recommend",
+    "library": "./components/library"
   }
 }
