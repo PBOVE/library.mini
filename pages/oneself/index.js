@@ -5,12 +5,12 @@ Page({
     configs
   },
   onLoad: function () {
-    wx.getUserInfo({
-      lang: 'zh_CN',
-      success(res){
-        console.log(res)
-      }
-    })
+    // wx.getUserInfo({
+    //   lang: 'zh_CN',
+    //   success(res){
+    //     console.log(res)
+    //   }
+    // })
     console.log("页面创建时执行")
   },
   onShow: function () {

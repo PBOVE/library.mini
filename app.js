@@ -2,11 +2,11 @@ App({
   onLaunch: function () {
     console.log("页面创建时执行")
 
-    wx.login({
-      success(res){
-        console.log(res)
-      }
-    })
+    // wx.login({
+    //   success(res){
+    //     console.log(res)
+    //   }
+    // })
 
     wx.getSystemInfo({
       success: (result) => {

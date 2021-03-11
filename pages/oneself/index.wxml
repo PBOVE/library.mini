@@ -1,9 +1,19 @@
 <layout-view headerClass="header-wrap">
-  <view slot="header" class="header-content" >
+  <view slot="header" class="header-content">
     {{configs.title}}
   </view>
   <view slot="main" class="main-content">
-    
+
+    <view class="main-content-header">
+      <view class="flex-middle">
+        <view class="ml-2"> 登录/注册 </view>
+      </view>
+    </view>
+
+    <view class="ml-2 mr-2 bfff">
+      213
+    </view>
+
   </view>
   <view slot="footer" class="footer-content">
     <tab-bar active="{{3}}" />

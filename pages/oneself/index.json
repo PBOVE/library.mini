@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "layout-view": "/layout/index",
-    "tab-bar": "/components/tabBar/index"
+    "tab-bar": "/components/tabBar/index",
+    "van-icon": "@vant/weapp/icon/index"
   },
   "navigationBarTextStyle": "white"
 }

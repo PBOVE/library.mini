@@ -15,12 +15,20 @@
   color: #bbb;
 }
 
+.bfff {
+  background: #fff;
+}
+
 .ml-1 {
   margin-left: 8rpx;
 }
 
 .ml-2 {
   margin-left: 16rpx;
+}
+
+.mr-2 {
+  margin-right: 16rpx;
 }
 
 .ellipsis {
