@@ -5,13 +5,17 @@
   <view slot="main" class="main-content">
 
     <view class="main-content-header">
-      <view class="flex-middle">
-        <view class="ml-2"> 登录/注册 </view>
+      <view class="flex-middle button">
+        <image src="/assets/svg/header.svg" />
+        <text class="ml-2" bindtap="handleClickLogin"> 立即登录 </text>
+        <van-icon name="arrow" />
       </view>
     </view>
 
-    <view class="ml-2 mr-2 bfff">
-      213
+    <view class="information">
+      <view class="information-item">已借图书</view>
+      <view class="information-item">当前借阅</view>
+      <view class="information-item">预约图书</view>
     </view>
 
   </view>

@@ -1,0 +1,11 @@
+<layout-view>
+  <view slot="header" class="header-content"  bindtap="onBack">
+    <van-icon name="arrow-left" />
+    <view  class="ml-2" >登录</view>
+  </view>
+  <view slot="main" class="main-content">
+    <input type="text" />
+    <input type="text" />
+    <view>登录</view>
+  </view>
+</layout-view>

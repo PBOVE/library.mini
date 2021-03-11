@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": true,
     "postcss": true,
@@ -21,20 +21,17 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
+    "useMultiFrameRuntime": false,
     "useApiHook": true,
-    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
     "bundle": false,
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
     "packNpmManually": true,
     "packNpmRelationList": [
       {
@@ -42,6 +39,9 @@
         "miniprogramNpmDistDir": "./"
       }
     ],
+    "useApiHostProcess": false,
+    "enableEngineNative": false,
+    "userConfirmedBundleSwitch": false,
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
@@ -89,6 +89,12 @@
           "name": "pages/oneself/index",
           "pathName": "pages/oneself/index",
           "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/login/index",
+          "pathName": "pages/login/index",
           "scene": null
         }
       ]

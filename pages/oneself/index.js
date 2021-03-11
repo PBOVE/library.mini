@@ -1,4 +1,5 @@
 import configs from '../../configs/index'
+import pageEnum from '../../enum/pageEnum'
 
 Page({
   data: {
@@ -21,6 +22,13 @@ Page({
   },
   onHide: function () {
     console.log("页面从前台变为后台时执行")
+  },
+
+  // 处理登录跳转
+  handleClickLogin() {
+    wx.navigateTo({
+      url: pageEnum.INDEX_LOGIN,
+    })
   },
 
 })

@@ -4,7 +4,8 @@
     "pages/search/index",
     "pages/classify/index",
     "pages/message/index",
-    "pages/oneself/index"
+    "pages/oneself/index",
+    "pages/login/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,7 +15,8 @@
   },
   "tabBar": {
     "custom": true,
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/index/index",
         "text": "主页"
       },
