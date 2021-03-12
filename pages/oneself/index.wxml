@@ -7,7 +7,7 @@
     <view class="main-content-header">
       <view class="flex-middle button">
         <image src="/assets/svg/header.svg" />
-        <text class="ml-2" bindtap="handleClickLogin"> 立即登录 </text>
+        <text class="ml-3" bindtap="handleClickLogin"> 立即登录 </text>
         <van-icon name="arrow" />
       </view>
     </view>

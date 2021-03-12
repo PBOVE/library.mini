@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "layout-view": "/layout/index",
-    "van-icon": "@vant/weapp/icon/index"
+    "van-icon": "@vant/weapp/icon/index",
+    "van-toast": "@vant/weapp/toast/index"
   }
 }

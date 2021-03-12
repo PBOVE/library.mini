@@ -1,11 +1,16 @@
 <layout-view>
-  <view slot="header" class="header-content"  bindtap="onBack">
+  <view slot="header" class="header-content" bindtap="onBack">
     <van-icon name="arrow-left" />
-    <view  class="ml-2" >登录</view>
+    <view class="ml-2">登录</view>
   </view>
   <view slot="main" class="main-content">
-    <input type="text" />
-    <input type="text" />
-    <view>登录</view>
+    <view class="flex-middle flex-column">
+      <image src="/assets/svg/logo.svg" class="image-logo" />
+    </view>
+    <input type="number" class="input-content" placeholder="请输入手机号" value="{{mobile}}" bindinput="handleMobileChange" />
+    <input type="password" class="input-content" placeholder="请输入登录密码" value="{{password}}" bindinput="handlePasswordChange" />
+    <view class="button-login" bindtap="handleLogin">登录</view>
   </view>
 </layout-view>
+
+<van-toast id="van-toast" />
